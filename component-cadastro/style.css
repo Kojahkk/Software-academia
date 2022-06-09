@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@300;500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+.cadastro {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+.imagem-amostra {
+  width: 100%;
+}
+
+.caixa-back {
+  background-color: #fd7014;
+}
+
+.caixa-formulario {
+  background-color: #eeeeee;
+}
+
+.titulo1_cadastro {
+  color: white;
+  font: 3rem "Roboto", sans-serif;
+  margin-top: 9rem;
+  margin-bottom: -13rem;
+}
+
+.titulo2_cadastro {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 7rem;
+  margin-bottom: -3rem;
+}
+.icone-voltar {
+  float: right;
+  padding-top: 4rem;
+  padding-right: 4rem;
+}
+
+.input-cadastro {
+  background-color: #eeeeee;
+  font-size: 1.6rem;
+
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 3px solid black;
+
+  padding-top: 1.2rem;
+  padding-bottom: 0.6rem;
+
+  width: 70%;
+  margin: 0 auto;
+}
+.input-cadastro:focus {
+  background-color: #eeeeee;
+  box-shadow: none;
+}
+
+.icones-cadastro {
+  position: relative;
+  top: 4.5rem;
+  left: 0.5rem;
+}
+.col-lg-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.label {
+  display: block;
+  position: relative;
+  top: 5rem;
+  font-size: 1.7rem;
+  margin-top: 5.5rem;
+  margin-left: 5.5rem;
+  top: rem;
+  color: #0f1621;
+}
+
+.btn-info.botao-cadastrar {
+  background-color: #fd7014;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.6rem;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+
+  font-weight: bold;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+.btn-info.botao-cadastrar:hover {
+  background-color: #c95a10;
+}
+
+@media (max-width: 767px) {
+  .label {
+    left: 5rem;
+  }
+
+  .titulo1_cadastro {
+    font-size: 2.3rem;
+  }
+
+  .btn-info.botao-cadastrar {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 920px) {
+}

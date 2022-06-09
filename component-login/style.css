@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@300;500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+.cadastro {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.caixa-back {
+  background-color: #fd7014;
+}
+
+.caixa-formulario {
+  background-color: #eeeeee;
+}
+
+.titulo1_login {
+  color: white;
+  font: 3rem "Roboto", sans-serif;
+  margin-top: 10rem;
+  margin-bottom: -13rem;
+}
+
+.titulo2_login {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.col-lg-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.icone-voltar {
+  float: right;
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+
+.esqueci-senha {
+  float: right;
+  position: relative;
+  top: -7rem;
+
+  margin-right: 6rem;
+  /*AJUSTAR POSIÇÃO*/
+}
+
+.input-login {
+  margin: 0 auto;
+  height: 3rem;
+  background-color: #eeeeee;
+  font-size: 1.6rem;
+
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 3px solid black;
+
+  padding-top: 1.2rem;
+  padding-bottom: 0.6rem;
+
+  width: 40%;
+}
+.input-cadastro:focus {
+  background-color: #eeeeee;
+  box-shadow: none;
+}
+
+.icones-login {
+  position: relative;
+  top: 3rem;
+  margin-right: 35rem;
+}
+
+.form-group {
+  margin-top: 6rem;
+
+  line-height: 2rem;
+  align-items: center;
+}
+
+.label {
+  position: relative;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-right: 35rem;
+  margin-bottom: -3rem;
+  color: #0f1621;
+}
+.imagem-amostra {
+  width: 100%;
+}
+
+.btn-info.botao-cadastrar {
+  background-color: #fd7014;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  align-items: center;
+}
+.btn-info.botao-cadastrar:hover {
+  background-color: #ee520a;
+}
+
+.btn-info.botao-criar-conta {
+  background: none !important;
+  width: 40%;
+  border: 2px solid #fd7014;
+  border-radius: 5px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.6rem;
+
+  color: #fd7014;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 15rem;
+}
+
+.btn-info.botao-criar-conta:hover {
+  background-color: #fd7014;
+}
+.esqueci-senha {
+  text-decoration: none;
+  color: #1010cc;
+  font-size: 1.6rem;
+}

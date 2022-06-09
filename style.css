@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@300;500&display=swap");
+
+/*--geral--*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Cada 1rem será considerado 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+  /*ANULA O SCROLL LATERAL SOBRESSALENTE*/
+  overflow-x: hidden;
+}
+
+/*--Cabeçalho--*/
+
+#logo {
+  padding-left: 4rem;
+}
+
+.header {
+  background-color: #0f1621;
+  width: 100%;
+}
+
+.menu-back {
+  background-color: #0f1621;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  background-color: #fd7014;
+  padding: 1.7rem;
+  border-radius: 4px;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.nav-link {
+  color: #eeeeee !important;
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition-property: font-size !important;
+  transition-duration: 0.4s !important;
+}
+.nav-link:hover {
+  color: #fd7014 !important;
+  font-size: 1.9rem !important;
+}
+
+.btn-info#botao-login {
+  padding: 0.4rem;
+  width: 120px;
+  border-radius: 7px;
+  color: #fd7014;
+  font-weight: 600;
+  font-size: 1.8rem;
+  background: none !important;
+  border: 2px solid #fd7014;
+  margin-right: 3rem !important;
+}
+.btn-info#botao-cadastro {
+  padding: 0.5rem;
+  width: 120px;
+  border: none;
+  border-radius: 7px;
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 1.8rem;
+  background-color: #fd7014;
+  margin-right: 5rem !important;
+}
+
+.btn-info#botao-cadastro:hover {
+  background-color: #c95a10 !important;
+}
+
+.btn-info#botao-login:hover {
+  color: #c95a10;
+  border: 2px solid #c95a10;
+}
+
+/*--Texto cabeçalho--*/
+.titulo1 {
+  line-height: 5rem;
+  margin-left: 7rem;
+  color: #eeeeee;
+  font-size: 4rem;
+}
+
+.paragrafo1 {
+  margin-left: 7.5rem;
+  line-height: 3rem;
+  color: #eeeeee;
+  margin-top: 1.1rem;
+  font-size: 2rem;
+}
+
+.imagem-de-fundo {
+  background-image: url(images/Icones\ home.png);
+  background-position: 80%;
+  padding: 165px;
+  background-repeat: no-repeat;
+}
+
+/*--Botão cabeçalho--*/
+
+button.btn-danger {
+  background-color: #fd7014;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+button.btn-danger:hover {
+  background-color: #c95a10;
+}
+button.btn-danger:focus {
+  background-color: #c95a10 !important;
+  color: white !important;
+  box-shadow: none;
+}
+
+/*--imagem cabeçalho--*/
+
+.img-fluid {
+  height: 100%;
+  margin-top: 5rem;
+  margin-right: -0.7rem;
+}
+
+/*--Quem somos--*/
+.container-fluid.quem-somos {
+  background-color: #eeeeee;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.paragrafo2 {
+  padding-top: 1%;
+  margin-left: -20%;
+  padding-left: 35%;
+  padding-right: 30%;
+}
+.titulo-quem-somos {
+  font-weight: 700;
+  margin-top: 20rem;
+  margin-left: 10rem;
+  font-size: 4rem;
+}
+
+.marcaDagua-quem-somos {
+  color: rgba(199, 199, 199, 0.5);
+  margin-left: 2rem;
+  height: 30%;
+  font-size: 26rem;
+  line-height: 80%;
+  letter-spacing: 0.8rem;
+  margin-top: 5%;
+}
+
+/*--Texto quem somos--*/
+
+/*--Ficha de treino--*/
+
+.ficha-de-treino {
+  background-color: #fd7014;
+  width: 100%;
+}
+
+.marcaDagua-ficha-treino {
+  color: rgb(228, 102, 0);
+  margin-left: 1.5%;
+  font-size: 30rem !important;
+  line-height: 23rem;
+  margin-bottom: -35%;
+  letter-spacing: 0.5rem !important;
+}
+.titulo2 {
+  color: white;
+  margin-right: 29rem;
+  font-size: 2.3rem !important;
+  line-height: 2.3rem;
+}
+
+/*-- Ferramentas do container 3--*/
+
+.ferramentas {
+  background-color: #eeeeee;
+}
+
+/*--Imagens dos cartões--*/
+
+#ficha {
+  width: 67%;
+
+  margin-left: 8rem;
+}
+#ajuste1 {
+  padding-bottom: 2rem;
+}
+
+#coracao {
+  width: 45%;
+  margin-left: 10rem;
+}
+
+#grafico {
+  width: 80%;
+  padding-top: 2.7rem;
+  margin-left: 4.5rem;
+}
+.ficha {
+  background-color: white;
+  padding: 10px;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.coracao {
+  background-color: white;
+  padding: 10px;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.grafico {
+  background-color: white;
+  padding: 10px;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+/*--Background do cartão--*/
+/*--Cartão--*/
+
+.card {
+  background-color: #0f1621 !important;
+  border: 2px solid #0f1621 !important;
+  margin: 5rem;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  width: 75%;
+  border-radius: 23px !important;
+}
+
+/*--Rodapé--*/
+
+.rodape {
+  background-color: #0f1621;
+  width: 100%;
+}
+.titulo-planos {
+  color: rgba(255, 255, 255, 0.1);
+  margin-left: 1.5%;
+  font-size: 20rem !important;
+  line-height: 10rem;
+  padding-top: 4rem;
+  margin-bottom: -6%;
+  letter-spacing: 1.7rem !important;
+}
+
+.planos1 {
+  background-color: white;
+  margin-bottom: 5rem;
+  height: 330px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-left: 3rem;
+  font-size: 120%;
+  border-radius: 5px;
+}
+.planos2 {
+  background-color: white;
+  margin-left: 3.1rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  height: 330px;
+  font-size: 120%;
+  border-radius: 5px;
+}
+
+#basico {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+#premium {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.titulo-reais {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.por-mes {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.ajuste-plano {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+.btn-info.botao-planos {
+  padding: 1.1rem;
+  background-color: #fd7014;
+  width: 200px;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+}
+.btn-info.botao-planos:hover {
+  background-color: #c95a10 !important;
+  color: white !important;
+}
+.btn-info.botao-planos:focus {
+  background-color: #c95a10 !important;
+  color: white !important;
+}
+
+#texto-plano {
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding: 3rem;
+}
+
+.linha2-planos {
+  padding-top: 3rem;
+}
+
+/*--Media queries (RESPONSIVE)--*/
+
+/* - (RESPONSIVO) - Header */
+
+@media (max-width: 782px) {
+  .titulo1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .paragrafo1 {
+    padding: 5rem;
+  }
+  .mulher {
+    display: none;
+  }
+  .imagem-de-fundo {
+    background-image: url(images/HomeCelular.png);
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-info.botao-login {
+    margin: 0 auto !important;
+    margin-right: -3rem !important;
+    width: 80px !important;
+  }
+}
+/* (RESPONSIVO) - quem somos*/
+@media (max-width: 768px) {
+  .titulo-quem-somos {
+    z-index: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .titulo-que-somos {
+    text-align: center;
+  }
+}
+
+/* (RESPONSIVO) - Ficha de treino */
+
+@media (max-width: 600px) {
+  .celular {
+    width: 100%;
+    margin-top: -30rem;
+  }
+  .titulo2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 8rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .celular {
+    width: 100%;
+    margin-top: -30rem;
+  }
+  .titulo2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 8rem;
+  }
+}
+
+/* (RESPONSIVO) - Cards */
+
+@media (max-width: 768px) {
+  .card {
+    margin-left: 16%;
+  }
+}
+
+/* (RESPONSIVO) - planos */
+@media (max-width: 870px) {
+  .planos2 {
+    height: 280px !important;
+  }
+  .planos1 {
+    height: 280px !important;
+  }
+}
+@media (max-width: 865px) {
+  .planos2 {
+    height: 320px !important;
+  }
+  .planos1 {
+    height: 320px !important;
+  }
+}
+@media (max-width: 768px) {
+  .planos2 {
+    width: 70% !important;
+    margin-left: 16%;
+  }
+  .planos1 {
+    width: 70% !important;
+    margin-left: 16%;
+  }
+}
+@media (max-width: 991px) {
+  #texto-plano {
+    text-align: center;
+    padding: 7rem;
+  }
+}
+@media (max-width: 768px) {
+  #texto-plano {
+    text-align: justify;
+  }
+}
+
+/* - FIM do responsivo @media - */

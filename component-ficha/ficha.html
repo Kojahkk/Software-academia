@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light nav-back">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="../images/SuaFicha logo 2.png" alt="" Id="logo">
+                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ficha.html">NOVA FICHA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          MINHAS FICHAS
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">DASHBOARD</a>
+                      </li>
+                    </ul>
+                      <a href=""><img src="../images/ícone.png" alt="Perfil Icone"></a>
+                  </div>
+                </div>
+              </nav>
+
+
+              <!--FORMULÁRIO CARD ABAIXO-->
+
+              <div class="card">
+
+                  
+                  <div class="row">
+                    <div class="col-md-6">
+                        
+                        <form action="" class="">
+                            <h1 id="titulo1">ALUNO</h1>
+
+
+                            <div class="form-group">
+                                <label for="name" class="label1">Nome</label>
+                                <img src="../images/NomeIcon.png" alt="Icone nome" class="icones">
+                                <input type="text" class="form-control input1" id="name" name="name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cpf" class="label1">CPF</label>
+                                <img src="../images/Cpf_Icon.png" alt="Icone cpf" class="icones">
+                                <input type="text" class="form-control input1" id="cpf" name="cpf"> 
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="nascimento" class="label1">Data nascimento</label>
+                                <img src="../images/NascimentoIcon.png" alt="Icone data de nascimento" class="icones">
+                                <input type="text" class="form-control input1" id="nascimento" name="data-nascimento">
+                            </div>
+
+
+
+                            <div id="caixa-radio-sexo">
+                                <img src="../images/SexoIcon.png" alt="Icone Sexo" class="icones">
+                                <p id="sexo">Sexo</p>
+                                <div class="custom-radio form-check-inline">
+                                    <input type="radio" name="sexo" id="masculino" value="M">
+                                    <label for="masculino">
+                                   <strong style="margin-right: 10rem;">Masculino</strong>
+                                    </label>
+                                </div>
+
+                                <div class="custom-radio form-check-inline">
+                                    <input type="radio" name="sexo" id="feminino" value="F">
+                                    <label for="feminino">
+                                  <strong>Feminino</strong>
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div><!--row1-->
+
+                    <div class="row linha2">
+                        <div class="col-md-6">
+                            <h1 id="titulo2">AVALIAÇÕES FÍSICAS</h1>
+                            <div class="form-group">
+                                <label for="peso" class="label2">Peso</label>                             
+                                <input type="text" class="form-control input2" id="peso" name="peso">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="altura" class="label2">Altura</label>
+                                <input type="text" class="form-control input2" id="altura" name="altura">
+                            </div>
+
+                        <!--BOTÃO Expandir <button class="leia-mais float-end">Exandir<img src="../images/Polygon 5.png" alt="Icone EXPANDIR" class="expandir">-->
+
+                            <!--obesidade-->
+                            <p id="teve-obesidade">Teve obesidade</p>
+                            
+                            <div class="ajuste-obesidade">
+                                <div class="custom-radio  form-check-inline">
+                                  <input type="radio" name="obesidade" id="sim-obesidade" value="sim-obesidade">
+                                  <label for="sim-obesidade">
+                                  <strong style="margin-right: 2rem;">Sim</strong>
+                                  </label>
+                              </div>
+
+                              <div class="custom-radio form-check-inline">
+                                <input type="radio" name="obesidade" id="nao-obesidade" value="nao-obesidade" checked>
+                                <label for="nao-obesidade">
+                                <strong>Não</strong>
+                                </label>
+                                                                                        
+                              </div>
+                              
+                            
+                            </div> 
+                            <!--litros de agua-->
+                            <br>
+                            <br>
+                            <p id="litros-agua">Bebe quantos litros<br>&nbsp;&nbsp; de água por dia</p>
+                            
+                            <div class="ajuste-litros">
+                                <div class="custom-radio  form-check-inline">
+                                  <input type="radio" name="litros-agua" id="menos-litros" value="menos-litros">
+                                  <label for="menos-litros">
+                                  <strong style="margin-right: rem;">-2 litros</strong>
+                                  </label>
+                              </div>
+
+                              <div class="custom-radio form-check-inline">
+                                <input type="radio" name="litros-agua" id="mais-litros" value="mais-litros" checked>
+                                <label for="mais-litros">
+                                <strong>+2 litros</strong>
+                                </label>
+                                                                                        
+                              </div>
+                              
+                            
+                            </div> 
+
+                            <!--FUMANTE-->
+                            
+                            <br>
+                            <br>     
+                            <div class="caixa-fumar">                                                 
+                              <p id="fumante">Fumante</p>
+                              
+                              <div class="ajuste-fumante">
+                                  <div class="custom-radio  form-check-inline">
+                                    <input type="radio" name="fumante" id="sim-fuma" value="sim-fuma">
+                                    <label for="sim-fuma">
+                                    <strong style="margin-right: 2rem;">Sim</strong>
+                                    </label>
+                                </div>
+
+                                <div class="custom-radio form-check-inline">
+                                  <input type="radio" name="fumante" id="nao-fuma" value="nao-fuma" checked>
+                                  <label for="nao-fuma">
+                                  <strong>Não</strong>
+                                  </label>
+                                                                                          
+                                </div>
+                                
+                              
+                              </div>
+
+                          </div>
+                        </div> <!--COLUNA1 LINHA2-->
+                        
+                        
+                        
+                        
+
+
+
+                        <!--OBJETIVO-->
+
+                        <div class="col-md-6"> <!--COLUNA2 LINHA2-->
+
+                            <p id="objetivo">Objetivo</p> 
+                          <br>
+                            <div class="ajuste-objetivo">
+                                <div class="custom-radio  form-check-inline">
+                                    <input type="radio" name="objetivo" id="perda-de-peso" value="PP" checked>
+                                    <label for="perda-de-peso">
+                                    <strong style="margin-right: 6.7rem;">Perda de peso</strong>
+                                    </label>
+                                </div>
+
+                                <div class="custom-radio form-check-inline">
+                                  <input type="radio" name="objetivo" id="hipertrofia" value="HT">
+                                  <label for="hipertrofia">
+                                  <strong>Hipertrofia</strong>
+                                  </label>
+                                </div>
+
+                                  <br><br>
+                                  <div class="custom-radio  form-check-inline">
+                                      <input type="radio" name="objetivo" id="condicionamento" value="CD">
+                                      <label for="condicionamento">
+                                      <strong style="margin-right: 5rem;">Condicionamento</strong>
+                                      </label>
+                                  </div>
+
+                                  <div class="custom-radio form-check-inline">
+                                    <input type="radio" name="objetivo" id="fisioterapia" value="FS">
+                                    <label for="fisioterapia">
+                                    <strong>Fisioterapia</strong>
+                                    </label>
+                                  </div>
+                          </div>
+
+                          
+                          <br>
+
+                          <!--ATIVIDADE FISICA-->
+
+                            <p id="pratica-atividade-fisica">Pratica atividade física</p>
+                            
+                            <div class="ajuste-atividade">
+                                <div class="custom-radio  form-check-inline">
+                                  <input type="radio" name="pratica-atividade-fisica" id="sim-pratica" value="sim-pratica">
+                                  <label for="sim-pratica">
+                                  <strong style="margin-right: 2rem;">Sim</strong>
+                                  </label>
+                              </div>
+
+                              <div class="custom-radio form-check-inline">
+                                <input type="radio" name="pratica-atividade-fisica" id="nao-pratica" value="nao-pratica" checked>
+                                <label for="nao-pratica">
+                                <strong>Não</strong>
+                                </label>
+                                                                                        
+                              </div>
+                              
+                            
+                            </div>
+
+                            <!--problema ao fazer exercícios-->
+
+                            <div class="problemas-exercicios">
+                              <p id="problemas-exercicios">Problema ao fazer<br>exercícios</p> 
+                              <br>
+                                <div class="ajuste-problema-exercicio">
+                                    <div class="custom-radio  form-check-inline">
+                                        <input type="radio" name="problemas-exercicios" id="tontura" value="tontura">
+                                        <label for="tontura">
+                                        <strong style="margin-right: 6.7rem;">Tontura</strong>
+                                        </label>
+                                    </div>
+    
+                                    <div class="custom-radio form-check-inline">
+                                      <input type="radio" name="problemas-exercicios" id="Enjoo" value="Enjoo">
+                                      <label for="Enjoo">
+                                      <strong style="margin-right: 1.6rem">Enjoo</strong>
+                                      </label>
+                                    </div>
+
+                                    <div class="custom-radio  form-check-inline">
+                                      <input type="radio" name="problemas-exercicios" id="nenhum" value="nenhum" checked>
+                                      <label for="nenhum">
+                                      <strong style="margin-right: 4rem;">Nenhum</strong>
+                                      </label>
+                                    </div>
+    
+                                      <br><br>
+                                      <div class="custom-radio  form-check-inline">
+                                          <input type="radio" name="problemas-exercicios" id="dor-muscular" value="dor-muscular">
+                                          <label for="dor-muscular">
+                                          <strong style="margin-right: 4rem;">Dor muscular</strong>
+                                          </label>
+                                      </div>
+    
+                                      <div class="custom-radio form-check-inline">
+                                        <input type="radio" name="problemas-exercicios" id="mal-estar" value="mal-estar">
+                                        <label for="mal-estar">
+                                        <strong>Mal estar</strong>
+                                        </label>
+                                      </div>
+                                      
+                                      
+  
+                                    <div class="custom-radio form-check-inline">
+                                      <input type="radio" name="problemas-exercicios" id="outros" value="outros">
+                                      <label for="outros">
+                                      <strong>Outros</strong>
+                                      </label>
+                                    </div>
+                              </div>
+
+                            </div>
+
+                            <div class="faz-dieta">
+                              <p id="faz-dieta">Faz alguma dieta</p>
+                              <div class="ajuste-dieta">
+                                <div class="custom-radio form-check-inline">
+                                  <input type="radio" name="faz-dieta" id="sim-dieta" value="sim-pratica">
+                                  <label for="sim-pratica">
+                                  <strong style="margin-right: 2rem;">Sim</strong>
+                                  </label>
+                              </div>
+
+                              <div class="custom-radio form-check-inline">
+                                <input type="radio" name="pratica-atividade-fisica" id="nao-pratica" value="nao-pratica" checked>
+                                <label for="nao-pratica">
+                                <strong>Não</strong>
+                                </label>
+                                                                                        
+                              </div>
+
+                            </div>
+
+                        </div><!--coluna2 linha2-->
+                    </div><!--row2-->
+                  
+
+                </div><!--CARD-->
+
+                  </form>
+                </button><!--Reduzir-->
+
+
+
+    </div><!--container-->
+
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
